@@ -1,5 +1,5 @@
-1. Write a C++ program to sort the elements in ascending and
- descending order.
+/*1. Write a C++ program to sort the elements in ascending and
+ descending order.*/
 
 
  #include <iostream>
@@ -52,7 +52,7 @@
  cout<<"\t "<<num[i]<<endl;
  return 0;
  }
-
+/*
 Output:
  Enter the size of an array
  5
@@ -74,9 +74,9 @@ Output:
  0
  9
  0
+*/
 
-
- 2. Write a C++ program to find the sum of all the natural numbers from 1 to n.
+ //2. Write a C++ program to find the sum of all the natural numbers from 1 to n.
 
  #include <iostream>
  using namespace std;
@@ -92,14 +92,14 @@ Output:
  return 0;
  }
 
- Output:
+ /*Output:
  Enter a positive integer: 9
  Sum =45
+*/
 
-
- 3. Write a C++ program to swap 2 values by writing a function that uses call by reference
+ /*3. Write a C++ program to swap 2 values by writing a function that uses call by reference
  technique.
-
+*/
 
  #include<iostream>
  using namespace std;
@@ -117,12 +117,12 @@ Output:
  cout<<"Value of y is: "<<y<<endl;
  return 0;
  }
-Output
+/*Output
  Value of x is: 100
  Value of y is: 500
+*/
 
-
- 4. Write a C++ program to demonstrate function overloading for the following prototypes.
+ //4. Write a C++ program to demonstrate function overloading for the following prototypes.
  
  //overload.cpp
  void
@@ -150,19 +150,21 @@ Output
  add(5.3, 6.2);
  return 0;
  }
+  /*
  Output:
  sum = 12
  sum = 11.5
+*/
+  
 
 
-
- 5. Create a class named Shape with a function that prints "This is a shape". Create another class
+ /*5. Create a class named Shape with a function that prints "This is a shape". Create another class
  named Polygon inheriting the Shape class with the same function that prints "Polygon is a
  shape". Create two other classes named Rectangle and Triangle having the same function which
  prints "Rectangle is a polygon" and "Triangle is a polygon" respectively. Again, make another
  class named Square having the same function which prints "Square is a rectangle". Now, try
  calling the function by the object of each of these classes.
-
+*/
 
 
 //shape.cpp
@@ -226,7 +228,7 @@ Output
 
 
 
- 6. SupposewehavethreeclassesVehicle,FourWheeler,andCar.TheclassVehicleisthebase
+ /*6. SupposewehavethreeclassesVehicle,FourWheeler,andCar.TheclassVehicleisthebase
  class, the class FourWheeler is derived fromit andtheclassCar isderivedfromtheclass
  FourWheeler. Class Vehicle has a method 'vehicle' that prints 'I am a vehicle', class
  FourWheelerhasamethod'fourWheeler' thatprints'Ihavefourwheels',andclassCarhasa
@@ -238,7 +240,7 @@ Output
  Ihavefourwheels
  Iamavehicle
 WriteaC++programtodemonstratemultilevelinheritanceusingthis.
-
+*/
 
 
 
